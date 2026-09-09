@@ -1,0 +1,11 @@
+Models are the main component of langchain. Where we basically send the prompt
+and generate something out of it. Model usally have the size of 100 gb that's why
+we generally use the API of the model s example anthropic, openAI, gemini
+
+
+There are two types of model:-
+
+1. Language model - we used to send some text and model used to return in text form.
+
+2. Embedding model - It's basically get the text and split and embed the text into vector and store in vector DB.
+

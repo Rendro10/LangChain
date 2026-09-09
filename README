@@ -1,0 +1,15 @@
+Langchain is a framework is helps to provide us the libs which helps to integrate model and chains between process. We use langchain so we make the Chatbot and AI Agent in simplier way, it's like coupler joining.
+
+
+Main component of langchain are:
+1. Models - which is LLM models of anthropic, openAI, gemini which is easy to integrate using lanchain. There are two types of model one is llm model and another is chat model. we generally use chat models for chatbot and all support now.
+
+2. prompt - promt is one of the main technique to get best from the model. 3 types of promts are: 1. Few shot 2. Zero shot and 3. Chain of thaughts.
+
+3. chains - Main component of langchain is chains. Chain behaves like building a LLM based application with a set of instruction. There are few chaining technique like parallel chain, conditional chain etc.
+
+4. Indexes - majore component of indexes are: text splitting, embedding, vector db, symantic search. Indexes helps us to build RAG based system cause sometime we want some chatbot which helps us to build the company policy related terms for out integrated system.
+
+5. Memory - memory helps us to get the context of previous chats. 
+
+6. Agent - agnet is the AI Agent which helps us to integrate the other tool in our system, so we can get the helps of the external tools to do some complex task.
